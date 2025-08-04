@@ -1,0 +1,171 @@
+.box1 {
+    display: block;
+    background-color: aquamarine;
+    height: 100px;
+    width: 100px;
+    margin: 20px;
+}
+
+.box2 {
+    display: inline;
+    background-color: azure;
+    height: 100px;
+    width: 100px;
+    margin: 20px;
+}
+
+.box3 {
+    display: flex;
+    flex-direction: row;
+    background-color: beige;
+    height: 100px;
+    width: 100px;
+    margin: 20px;
+}
+
+.best {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-color: blanchedalmond;
+}
+
+.daughter1 {
+    background-color: beige;
+    margin: 20px;
+    width: 100px;
+    height: 100px;
+    flex: 6px 6px 50px;
+}
+
+.daughter2 {
+    background-color: azure;
+    margin: 20px;
+    width: 100px;
+    height: 100px;
+    flex: 20px 20px 30px;
+
+}
+
+.daughter3 {
+    background-color: bisque;
+    margin: 20px;
+    width: 100px;
+    height: 100px;
+    flex: 3 3 10px;
+}
+
+.item-1 {
+    width: 50%;
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item-3 {
+    display: flex;
+    width: 100px;
+    background-color: lightcoral;
+    flex-shrink: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.item-2 {
+    display: flex;
+    flex: 1;
+    background-color: lightgreen;
+    justify-content: center;
+    align-items: center;
+}
+
+.kon {
+    margin-top: 20px;
+    display: flex;
+    width: 100%;
+    border: 1px solid #ccc;
+    height: 100px;
+}
+
+.menu {
+    width: 750px;
+    height: 50px;
+    background-color: beige;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 350px;
+    margin-top: 30px;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.menu-item1 {
+    text-decoration: none;
+    color: black;
+}
+.menu-item1:hover{
+    color: brown;
+}
+
+.kartochka1{
+    display: flex;
+    background-color: azure;
+    width: 500px;
+    height: 100px;
+    margin-left: 50px;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+    flex: 0 0 20%;
+}
+
+.kon2{
+    background-color: antiquewhite;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.kartochka2{
+    display: flex;
+    background-color: aliceblue;
+    width: 500px;
+    height: 100px;
+    margin-left: 50px;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+    flex: 2 2 40%;
+}
+
+.kartochka3{
+    display: flex;
+    background-color: bisque;
+    width: 500px;
+    height: 100px;
+    margin-left: 50px;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+    flex: 1 1 10%;
+}
+
+.kartochka4{
+    display: flex;
+    background-color: beige;
+    width: 500px;
+    height: 100px;
+    margin-left: 50px;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+    flex: 0 0 80%;
+}
