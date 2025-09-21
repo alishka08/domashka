@@ -4,20 +4,20 @@
 }
 
 .main-text{
-    font-family: "DM Sans", sans-serif;
+    font-family: "DM Sans", sans-serif; /*Это обычное подключение шрифта с помощью ссылок */
     font-weight: 300;
     font-size: 22px;
 }
 
 .paragraph{
-    font-family: MyFont;
+    font-family: MyFont; /*Это локальное подключение шрифта */
     font-size: bold;
 }
 
 .text2 {
-  font-family: 'Roboto Slab', Georgia, serif;
+  font-family: 'Roboto Slab', Georgia, serif; /*Это так же обычное подключение шрифта с помощью ссылок,но если один шрифт не заработает подключается другой */
 }
 
 .paragraph2 {
-  font-family: 'DM Sans', 'Helvetica', sans-serif;
+  font-family: 'DM Sans', 'Helvetica', sans-serif;/*Тут так же как и в верхнем */
 }
