@@ -1,0 +1,50 @@
+.con1 {
+    box-shadow: 10px 10px 10px 10px rgb(173,216,230);
+    background-color: azure;
+    width: 150px;
+    height: 200px;
+}
+
+.con2{
+    box-shadow: 20px 15px 5px 0px rgb(224,224,224);
+    background-color: beige;
+    width: 200px;
+    height: 150px;
+    margin-top: 100px;
+    margin-left: 150px;
+}
+
+.text1{
+    text-shadow: 2px 2px 2px rgb(122, 35, 35);
+    font-family: "Montserrat", sans-serif;
+    color: brown;
+    text-align: center;
+    justify-content: center;
+}
+
+.text2{
+    text-shadow: 3px 3px 3px rgb(25, 136, 201);
+    font-family: "Raleway", sans-serif;
+    color: aqua;
+    margin-left: 1000px;
+}
+
+.box{
+    background: linear-gradient(to right,black,white);
+    width: 200px;
+    height: 200px;
+}
+
+.box-2{
+    background: linear-gradient(to left,blue,aqua);
+    width: 250px;
+    height: 300px;
+    margin-left: 700px;
+}
+
+.box-3{
+    background: radial-gradient(circle,red,orange,yellow,green,lightblue,blue,violet);
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+}
